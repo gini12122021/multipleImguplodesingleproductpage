@@ -1,0 +1,71 @@
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {max-width: 1280px !important}
+
+.imguplodecust {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    margin-bottom: 10px;    padding: 10px;
+}
+span.pip {
+    position: relative;
+
+    padding: 10px;
+}
+#image_preview img.imageThumb {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.imguplodecust span.remove {
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+}
+.removeicon {
+    background: url(../img/delete.png);
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: block;
+    top: -160px;
+    left: -5px;
+}
+span.imgtitlename {
+    display: inline-block;
+    font-size: 13px;
+}
+.imginnerblock {
+    display: block;
+    width: 100%;
+}
+dd.variation-Imageuploaded img {
+    width: 60px;
+    height: 60px;
+    height: 60px !important;
+    float: left;
+    object-fit: cover;
+}
+.cpo_removeimg {
+    background: red;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+dd.variation-Imageuploaded {
+    margin-bottom: 10px !important;
+    display: block;
+    clear: both;
+    position: relative;
+}
+.shop_table img.imageThumb {
+    width: 60px;
+}
+i.removei {
+    background: red;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
